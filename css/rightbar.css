@@ -87,3 +87,6 @@
     object-fit: cover;
     border-radius: 5px;
   }
+  .rightbarFollowingImg:hover{
+transform: scale(1.7);
+  }
