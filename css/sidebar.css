@@ -1,25 +1,18 @@
 .sidebar {
-    flex: 3;
-    height: calc(100vh - 50px);
-    overflow-y: scroll;
-    position: sticky;
     top: 50px;
-  
   }
   
   ::-webkit-scrollbar {
     width: 5px;
   }
-  
   ::-webkit-scrollbar-thumb {
     background-color: rgb(0, 0, 0);
   }
-  
   .sidebarWrapper {
     padding: 20px;
   }
-  
   .sidebarList {
+    display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -30,6 +23,7 @@
     align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    flex: auto;
   }
   .sidebarListItem:hover{
     color:red;
@@ -61,6 +55,12 @@
     list-style: none;
     cursor: pointer;
   }
+  @media (max-width: 800px) {
+  .sidebarList{
+    display: block;
+
+  }
+  }
   
-  
+ 
   

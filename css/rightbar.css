@@ -9,6 +9,7 @@
   .birthdayContainer {
     display: flex;
     align-items: center;
+    justify-content: end;
   }
   
   .birthdayImg {
@@ -69,6 +70,7 @@
   .rightbarFollowings{
     display: flex;
     flex-wrap: wrap;
+    margin: 2px;
     justify-content: space-between;
   }
   
