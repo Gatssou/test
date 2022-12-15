@@ -1,0 +1,117 @@
+
+.headere {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(24deg, #04B2D9 16%, #293D40 38%, #0C5259 52%, #607A82 100%);
+  
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  .hamburger-menu {
+    height: 60px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+  }
+  
+  .aifor-logo {
+    height: 50px;
+    cursor: pointer;
+  }
+  .middle-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .search-icon {
+    height: 75px;
+    animation: 3s linear 1s infinite alternate;
+  
+    animation-name: slidein;
+  }
+  @keyframes slidein {
+    from {
+  
+      padding-left: 150px;
+    }
+  
+    to {
+   
+    padding-right: 200px;
+   
+    }
+  }
+  @media only screen and (max-width : 601px) {
+    /* Styles pour cette Media Queries */
+    .hamburger-menu {
+      height: 30px;
+      margin-left: 24px;
+      margin-right: 24px;
+      cursor: pointer;
+    }
+    .middle-section {
+      display: flex;
+      align-items: center;
+      width: 1%;
+     
+      z-index: 1;
+    }
+    
+   
+    .upload-icon {
+      height: 50px;
+    }
+  .aifor-logo {
+    height: 40px;
+    cursor: pointer;
+  }
+  .right-section {
+    width:50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    /**La propriété flex-shrink définit le facteur de rétrécissement d'un élément flexible. Si la taille de l'ensemble des éléments flexibles est supérieure à la taille du conteneur, les éléments seront comprimés selon leur facteur flex-shrink.**/
+  }
+    }
+  .right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    /**La propriété flex-shrink définit le facteur de rétrécissement d'un élément flexible. Si la taille de l'ensemble des éléments flexibles est supérieure à la taille du conteneur, les éléments seront comprimés selon leur facteur flex-shrink.**/
+  }
+  
+  .upload-icon {
+    height: 70px;
+  }
+  
+  .logo-apps-icon {
+    height: 24px;
+  }
+  
+  .notifications-icon {
+    height: 24px;
+  }
+  
+  .notifications-icon-container {
+    position: relative;
+  }
+  
+  .current-user-picture {
+    height: 32px;
+    border-radius: 16px;
+  }
+  
