@@ -60,6 +60,9 @@ button {
 	#titre{
 		font-size: 2em;
 	}
+	h1{
+		font-size: 2em;
+	}
 }
 a, button, input, select {
 	pointer-events: auto;
