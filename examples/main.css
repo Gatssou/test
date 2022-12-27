@@ -55,8 +55,11 @@ button {
 }
 @media all and ( max-width: 740px ) {
 	#info { 
-	font-size: 1em;
+	font-size: 0.8em;
 	}
+#info a{
+	font-size: 0.9;
+}
 	#titre{
 		font-size: 2em;
 	}
