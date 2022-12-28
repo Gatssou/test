@@ -37,6 +37,21 @@ button {
 	pointer-events: none;
 	z-index: 1; /* important*/
 }
+#infos{
+	position: absolute;
+	top: 0px;
+letter-spacing: 10px;
+	width: 100%;
+	box-sizing: border-box;
+padding: 50px;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* important*/
+}
 #titre{
 	position: absolute;
 	top: 50%;
